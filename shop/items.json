@@ -1,0 +1,11 @@
+[
+    {"name": "Chicken", "type": "chicken", "img": "../img/chicken.jpeg", "price": 14.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Sausage", "type": "sausage", "img": "../img/sausage.jpg", "price": 19.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Beef", "type": "beef", "img": "../img/beef.jpg", "price": 20.00, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Chicken", "type": "chicken", "img": "../img/chicken.jpeg", "price": 14.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Sausage", "type": "sausage", "img": "../img/sausage.jpg", "price": 19.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Beef", "type": "beef", "img": "../img/beef.jpg", "price": 20.00, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Chicken", "type": "chicken", "img": "../img/chicken.jpeg", "price": 14.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Sausage", "type": "sausage", "img": "../img/sausage.jpg", "price": 19.99, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"},
+    {"name": "Beef", "type": "beef", "img": "../img/beef.jpg", "price": 20.00, "info": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus quae, ad tempora labore impedit animi"}
+]

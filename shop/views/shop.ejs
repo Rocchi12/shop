@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../styles/partials/headerstyles.css">
+    <link rel="stylesheet" href="../styles/shopstyles.css">
+</head>
+<body>
+    <header>
+        <h1>Shop</h1>
+        <button onclick ="openNav()" class="opennav"></button>
+    </header>
+
+    <nav class="sidebar">
+        <button onclick = "closeNav()" class="closenav"></button>
+        <hr>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+        </ul>
+    </nav>
+
+    <nav class="filtersopen">
+         <button class="closefilter" onclick="closeFilter()"></button>
+         <div>
+        <h2>Type of Meat</h2>
+        <form class="filter-form">
+            <input type="checkbox" id="chicken" name="chicken" value="chicken">
+            <label for="chicken">Chicken</label><br>
+            <input type="checkbox" id="beef" name="beef" value="beef">
+            <label for="beef">Beef</label><br>
+            <input type="checkbox" id="sausage" name="sausage" value="sausage">
+            <label for="sausage">Sausage</label><br>
+            <input type="submit" value="Submit" id="submitFilter">
+
+        </form>
+    </div>
+    </nav>
+
+    <main>
+        <div class="openbutton">
+            <p>Open filters</p>
+            <button class="openfilter" onclick="openFilter()"></button>
+        </div>
+        <div class="shopnav">
+            <ul>
+            </ul>
+        </div>
+    </main>
+    <script src="../scripts/shop.js"></script>
+    <script src="../scripts/filter.js"></script>
+    <script src="../scripts/headerUI.js"></script>
+</body>
+</html>

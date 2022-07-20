@@ -1,0 +1,17 @@
+/*main*/
+main div.iteminf{
+    max-width: 80%;
+    margin: 90px auto;
+}
+
+main div.iteminf img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    border: black solid 2px;
+} 
+a{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="../styles/partials/headerstyles.css">
+    <link rel="stylesheet" href="../styles/infostyles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/">Shop</a></h1>
+        <button onclick ="openNav()" class="opennav"></button>
+    </header>
+
+    <nav class="sidebar">
+        <button onclick = "closeNav()" class="closenav"></button>
+        <hr>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="iteminf">
+            <h1 id="name"></h1>
+            <img src="" alt="item of picture">
+            <p id="price"></p>
+            <p id="discription"></p>
+            <button class="buynow">buy now</button>
+        </div>
+    </main>
+    <script src="../scripts/infoUI.js"></script>
+    <script src="../scripts/headerUI.js"></script>
+</body>
+</html>
